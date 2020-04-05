@@ -35,7 +35,7 @@ await tgtg.getProfile();
 ### Discover nearby offers
 
 ```javascript
-await tgtg.discoverNearby((tags = DEFAULT_TAGS), { latitude, longitude });
+await tgtg.discoverNearby({ latitude, longitude }, (tags = DEFAULT_TAGS));
 const DEFAULT_TAGS = [
   "Favorites",
   "LastToday",
